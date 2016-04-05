@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/feedFragment">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request"
+        android:id="@+id/requestButton"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/shareButton"
+        android:textSize="20sp"
+        android:layout_below="@+id/requestButton"
+        android:layout_alignLeft="@+id/requestButton"
+        android:layout_alignStart="@+id/requestButton"
+        android:layout_marginTop="46dp"
+        android:layout_alignRight="@+id/requestButton"
+        android:layout_alignEnd="@+id/requestButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/postButton"
+        android:textSize="20sp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/shareButton"
+        android:layout_alignLeft="@+id/shareButton"
+        android:layout_alignStart="@+id/shareButton"
+        android:layout_alignRight="@+id/shareButton"
+        android:layout_alignEnd="@+id/shareButton" />
+</RelativeLayout>
